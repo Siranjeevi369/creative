@@ -1,0 +1,53 @@
+@media (min-width:901px) {
+    .container{
+        display: flex;
+       min-height: 800px;
+        background-color: rgb(66, 51, 51);
+        justify-content: stretch;
+        align-items: center;
+        gap: 20px;
+        
+    }
+}
+
+#box1{
+   
+    width: 300px;
+    background-color: rgb(235, 5, 5);
+    border: 2px solid white;
+    align-self: self-start;
+    
+}
+#box2{
+   
+    width: 100%;
+    background-color: rgb(13, 120, 243);
+    border: 2px solid white;
+    align-self: self-start;
+    order: 1;
+   
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#cardchild1{
+    width: 300px;
+    height: 600px;
+    background-color: coral;
+    border-top: 10px solid darkgreen;
+    border-radius: 10px;
+}
+#cardchild2{
+    width: 300px;
+    height: 600px;
+    background-color: burlywood;
+    border-top: 10px solid  darkgreen;
+    border-radius: 10px;
+}
+#footer{
+    width: 100%;
+    background-color: cadetblue;
+    height: 200px;
+}
